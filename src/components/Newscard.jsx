@@ -12,7 +12,7 @@ const [loader, setLoader] = useState(true);
 
   useEffect(() => {
     setLoader(true);
-    const URL = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${process.env.REACT_APP_API_KEY}`;
+    const URL = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=26ae4c72ccd241979befe11701269cb3`;
 
     setTimeout(() => {
       fetch(URL)
